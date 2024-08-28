@@ -1,0 +1,32 @@
+.container{
+    border: 1px solid black;
+    width: 300px;
+    height: 1000px;
+    position: relative;
+}
+p{
+    border:inherit;
+    width: 70px;
+    height: 100px;
+}
+.child1{
+    background-color: brown;
+    /* position: static;
+    left: 30px; */
+}
+.child2{
+    background-color:green;
+    /* position: fixed; */
+    /* bottom: 30px; */
+    /* left: 300px; */
+}
+.child3{
+    background-color: yellow;
+    /* position: absolute;
+    left: 0px; */
+}
+.child4{
+    background-color: pink;
+    /* position:sticky;
+    top:0px; */
+}

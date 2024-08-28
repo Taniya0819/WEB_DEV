@@ -1,0 +1,30 @@
+.container{
+    height: 720px;
+    width: 720 px;
+}
+
+.first{
+    color:#4FFBDF;
+    border: 1px solid #4FFBDF;
+    margin: 10px;
+}
+.morning{
+    margin:10px;
+}
+
+.bike{
+    margin:10px;
+}
+.time{
+    margin:10px;
+}
+.second{
+    color: #FFC75F;
+    border: 1px solid #FFC75F;
+    margin: 10px;
+}
+.third{
+    color: #D65DB1;
+    border: 1px solid #D65DB1;
+    margin: 10px;
+}

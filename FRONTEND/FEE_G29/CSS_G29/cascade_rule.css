@@ -1,0 +1,50 @@
+/* *{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+i{
+    color: green;
+}
+i{
+    color:red;
+}
+b{
+    color:brown;
+}
+p b{
+    color:blue !important;
+}
+p b{
+    color:green;
+}
+p#intro{
+    color:brown;
+}
+p{
+    color: violet;
+} */
+
+/* body{
+    font-family: Arial, Helvetica, sans-serif;   <- can be inherited 
+    color:blue;      <-  can be inherited 
+    border: 1px solid white;       <-  can not be inherited 
+    background-color: black;     <-  can not be inherited
+}
+.page{
+    border:inherit;
+}
+p{
+    border:inherit;         <- can not be inherited bcoz border can't be inherited
+}
+
+p{
+    color:red;
+}
+p{
+    color:rgb(188,55,55);
+}
+p{
+    color:#fff;
+} */

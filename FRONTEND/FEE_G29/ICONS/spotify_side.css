@@ -1,0 +1,68 @@
+.side{
+    display: grid;
+    background-color: black;
+    color:grey;
+    width: 20%;
+    height: 100%;
+}
+.div1{
+    background-color: rgb(24, 23, 23);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.div2{
+    background-color: rgb(24, 23, 23);
+    height: 200px;
+    overflow:scroll;
+}
+.div3{
+    background-color: rgb(24, 23, 23);
+    display:inline;
+    color: gray;
+    border: none;
+}
+.button4{
+    border-radius: 40px;
+}
+.child1{
+    border-radius: 2px;
+    color: white;
+    background-color:rgb(49, 47, 47);
+}
+.child2{
+    border-radius: 2px;
+    color: white;
+    background-color:rgb(49, 47, 47);
+    margin-bottom: 5px;
+}
+.button2{
+    border-radius: 40px;
+    margin-left: 1 rem;
+}
+.button3{
+    border-radius: 40px;
+} 
+.search:hover{
+    color: white;
+}
+.spotify{
+    color: white;
+}
+.home{
+    color: white;
+}
+.library{
+    display: flex;
+    display: inline;
+    /* flex-direction: row; */
+    /* justify-content: space around; */
+}
+.plus{
+    display: flex;
+    display: inline;
+    margin-left: 12px;
+    margin-top: 50px;
+    text-align: center;
+    
+    /* justify-content: space around; */
+}

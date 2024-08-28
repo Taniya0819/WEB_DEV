@@ -1,0 +1,18 @@
+button{
+    color: palevioletred;
+    background-color: white;
+    border: 2px solid palevioletred;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    scale:3.5
+}
+button:hover{
+    color: white;
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+    transform: translateY(-10px);
+    transition-duration: 0.7s;
+}

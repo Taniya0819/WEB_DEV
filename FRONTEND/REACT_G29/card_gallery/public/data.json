@@ -1,0 +1,14 @@
+[
+    {
+        "Product_Name" : "product1",
+        "Price" : "1000",
+        "Discount" : "20%",
+        "Description" : "lorem36"
+    },
+    {
+        "Product_Name" : "product2",
+        "Price" : "1500",
+        "Discount" : "30%",
+        "Description" : "lorem30"
+    }
+]

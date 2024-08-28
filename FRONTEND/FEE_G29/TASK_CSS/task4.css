@@ -1,0 +1,55 @@
+div:hover{
+    background-image: url(ICONS/task4.jpeg) ;
+    align-items:center;
+    position:left;
+    /* transform: scaleY(2);
+    transform: scale(-2);
+    transform: scaleY(-3); */
+}
+.p1{
+    text-align:"center" margin="left";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p2{
+    text-align:"center" margin="left";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p3{
+    text-align:"center" margin="left";
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 250px;
+}
+.list{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    visibility: hidden;
+}
+.div:hover .list{
+    visibility: visible;
+    display: block;
+}
+.mainH{
+    visibility: hidden;
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div:hover .mainH{
+    visibility: visible;
+}
+@keyframes translate {
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(900px);
+    }
+}
+.parent{
+    display: none;
+}

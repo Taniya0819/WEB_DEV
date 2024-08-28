@@ -1,0 +1,74 @@
+/* selector{
+    animation-name:;
+    animation-duration: ;
+    animation-timing-function: ;
+    animation-delay: ;
+    animation-iteration-count: ;
+    animation-direction: ;
+    animation-fill-mode: none/forward/backward/both;
+} */
+/* .slideInLeft{
+    transform: translate(50%,-50%);
+} */
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.animate{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.animate--infinte{
+    animation-iteration-count: infinite;
+}
+.animation-delay--1s{
+    animation-delay: 1s;
+}
+.animate--fast{
+    animation-duration: 0.6s;
+}
+.animate--slow{
+    animation-duration: 3s;
+}
+
+
+.slideInLeft{
+    /* animation: slideInLeft 1s ease 0s 1 normal none; */
+    /* animation: slideInLeft 1s; */
+    animation-name: slideInLeft;
+    animation-timing-function: ease;
+    /* animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: none;   
+    transform: translateX(-150px); */
+}
+
+
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.rotate{
+    animation-name: rotate;
+    animation-timing-function: linear;
+}

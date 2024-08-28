@@ -1,0 +1,44 @@
+.one::first-line{
+    color: red;;
+}
+.one::first-letter{
+    font-size: 30px;
+}
+.one::before{
+    content: 'Before';
+    display: block;
+}
+.one::after{
+    content: 'after';
+    display: block;
+}
+ul li::marker{
+    color: blue;
+}
+ul li::selection{
+    background-color: yellow;
+    color: brown;
+}
+a{ 
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+.parent:hover .two{
+    display: block;
+}
+.two{
+    background-color: yellow;
+    display: none;
+}
+q:lang(ok){
+    quotes: "~" "~";
+}

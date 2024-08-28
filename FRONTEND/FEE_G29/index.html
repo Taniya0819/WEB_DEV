@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <textarea class="display" id="" cols="30" rows="10"></textarea>
+        <div class="keys">
+            <button onclick="clrscr">C</button>
+            <button onclick="addToDisplay('%')" >%</button>
+            <button onclick="addToDisplay('/')">/</button>
+            <button id="orange" onclick="delLast('%')">del</button>
+            <!-- <br> -->
+            <button id="dark" onclick="addToDisplay('7')">7</button>
+            <button id="dark" onclick="addToDisplay('8')">8</button>
+            <button id="dark" onclick="addToDisplay('9')">9</button>
+            <button id="orange" onclick="addToDisplay('*')">X</button>
+            <!-- <br> -->
+            <button id="dark" onclick="addToDisplay('4')">4</button> 
+            <button id="dark" onclick="addToDisplay('5')">5</button>
+            <button id="dark" onclick="addToDisplay('6')">6</button>
+            <button id="orange" onclick="addToDisplay('-')">-</button>
+            <!-- <br> -->
+            <button id="dark" onclick="addToDisplay('1')">1</button>
+            <button id="dark" onclick="addToDisplay('2')">2</button>
+            <button id="dark" onclick="addToDisplay('3')">3</button>
+            <button id="orange" onclick="addToDisplay('+')">+</button>
+            <!-- <br> -->
+            <button id="dark" onclick="addToDisplay('00')">00</button>
+            <button id="dark" onclick="addToDisplay('0')">0</button>
+            <button id="dark" onclick="addToDisplay('.')">.</button>
+            <button id="orange" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>

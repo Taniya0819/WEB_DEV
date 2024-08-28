@@ -1,0 +1,31 @@
+/* *{
+    color: red;           <- universal selector
+} */
+
+/* p{
+color:blue;               <- type selector
+} */
+
+/* .first_child{
+    color:aqua;           <- class selector
+} */
+
+/* .parent>div{
+    color:white;                   
+    background-color: black;       <- child selector 
+} */
+
+/* .parent p{
+    color:green;             <-decendent selector
+} */
+
+/* h1+p{
+    color:violet;
+}                               <- adjacent sibling selector
+p+h1{
+    color:red;
+} */
+
+/* h1~p{
+    color:aqua;               <- general sibling selector
+} */

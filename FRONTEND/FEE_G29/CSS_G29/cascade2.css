@@ -1,0 +1,25 @@
+/* HSLA -> HUE (color wheel)(0-360 deg) Saturation(0-100%) Lightness(0-100%)  Alpha(0-1)  */
+p.one{
+    background-color: hsla(0, 29%, 33%, 0.5);
+}
+/* text properties */
+
+p.two{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:bolder;
+    font-style:italic;
+    text-align: left;
+    line-height: 100px;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 25px; */
+    border: 1px solid black;
+    width:50px;
+    /* white-space:nowrap;
+    white-space:pre; */
+    /* box-shadow: 10px 10px 5px 12px blue; (h of set ;v of set;blur ;spread ;color ) */
+}
+a{
+    text-decoration:none;
+    color:black;
+}
