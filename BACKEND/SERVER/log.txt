@@ -1,0 +1,19 @@
+// version -> ^4.19.2
+
+1st part-> 4
+2nd part-> 19
+3rd part-> 2
+
+3rd part-> fixes minor bugs (optional)
+
+2nd part-> recommended bug fix (security)
+
+1st part-> (major release)/(breaking update)
+ho skta hai ise change krne se code chle na chle
+
+^ -> compatible with version
+(4.19.2 < 5.0.0 koi bhi version hmaare liye compatible hoga)
+install all recommended and minor fixes automatically
+
+~ -> approximately equaivalent to version
+install all minor fixes (only) automatically 
